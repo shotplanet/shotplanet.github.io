@@ -5,17 +5,47 @@ html {
 	width: 100%;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .main {
+	height: 100%;
 	font-family: BediniBold; 
 	font-size: 30px;
 	padding: 50px 50px;
-	color: #737373;
+	color: gray;
 }
 
-.main a {color: #ffa8a8;}
+.main a {color: #df4b1c;}
+
+.main p {
+	margin: 30px;
+	padding-left: 10px;
+}
 
 @media all and (max-width: 600px) {
 	.main {
 		font-size: 90px;
 	}
+}
+
+.first {
+	color: #e09b1b;
+}
+
+.second {
+	color: #A5A5A5;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.img-container img {
+  max-height:100%;
+  max-width: 100%;
 }
