@@ -1,0 +1,21 @@
+ @font-face { font-family: BediniBold; src: url('../fonts/bedinibold.ttf'); } 
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+.main {
+	font-family: BediniBold; 
+	font-size: 30px;
+	padding: 50px 50px;
+	color: #737373;
+}
+
+.main a {color: #ffa8a8;}
+
+@media all and (max-width: 600px) {
+	.main {
+		font-size: 90px;
+	}
+}
