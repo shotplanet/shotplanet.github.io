@@ -15,7 +15,7 @@ body {
 .main {
 	height: 100%;
 	font-family: BediniBold; 
-	font-size: 30px;
+	font-size: 40px;
 	padding: 50px 50px;
 	color: gray;
 }
@@ -29,7 +29,7 @@ body {
 
 @media all and (max-width: 600px) {
 	.main {
-		font-size: 90px;
+		font-size: 32px;
 	}
 }
 
